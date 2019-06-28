@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitebackground"
+    android:padding="16dp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/whitebackground"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="381dp"
+            android:layout_height="49dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bu1"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="8dp"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/bu2"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="8dp"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/bu3"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8sp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bu4"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="8dp"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/bu5"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="8dp"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/bu6"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8sp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bu7"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="8dp"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/bu8"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_marginRight="8dp"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/bu9"
+
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:background="@color/white"
+                android:onClick="buclick"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/rest"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple"
+        android:onClick="rest"
+        android:text="reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pla1"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="player 1 : "
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rest"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pla2"
+        android:layout_width="96dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="player 2 :"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pla1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/count1"
+        android:layout_width="16dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="52dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/pla1"
+        app:layout_constraintTop_toBottomOf="@+id/rest"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="0"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/pla2"
+        app:layout_constraintTop_toBottomOf="@+id/count1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/again"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple"
+        android:onClick="agan"
+        android:text="again"
+        app:layout_constraintStart_toEndOf="@+id/rest"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
